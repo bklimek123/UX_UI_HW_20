@@ -9,6 +9,78 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Jacquarda+Bastarda+9&family=Kode+Mono:wght@400..700&family=Luckiest+Guy&family=Monofett&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Mono+One&family=Shadows+Into+Light&family=Silkscreen:wght@400;700&family=Special+Elite&family=Varela+Round&family=Workbench&display=swap" rel="stylesheet">
+  <style>
+    
+    body {
+  /* background: linear-gradient(135deg, #001133, #3705B0), url('./images/image5.png'); */
+  background: url('./images/image5.png');
+  background-size: cover; /* Ensure the background image covers the entire viewport */
+  background-repeat: no-repeat;
+  background-blend-mode: multiply; /* Blend the image with the gradient */
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;}
+    .navbar {
+      background-color: #3705B0;
+    }
+    .navbar-brand {
+      color: white !important;
+    }
+    .navbar-nav .nav-item .nav-link {
+      color: white;
+    }
+    .section-title {
+      margin: 2rem 0 1rem 0;
+    }
+    .content-section {
+      padding: 2rem 0;
+    }
+    .white-box {
+      background-color: white;
+      color: black;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+      text-align: left;
+    }
+    .purple-circles {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .purple-circle {
+      width: 40px;
+      height: 40px;
+      background-color: #3705B0;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 10px;
+      color: white;
+      font-weight: bold;
+    }
+	.dark-purple-circle {
+      width: 40px;
+      height: 40px;
+      background-color: #3705B0;
+	  opacity: 30%;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 10px;
+      color: white;
+      font-weight: bold;
+    } 
+
+    footer {
+      background-color: #121257;
+      color: #ffffff;
+      padding: 1rem 0;
+    }
+  </style>
 </head>
 <body>
   <!-- Header -->
@@ -30,7 +102,7 @@
   </header>
 
   <!-- Sub Navbar -->
-  <nav class="sub-navbar navbar-expand-lg">
+  <nav class="sub-navbar navbar-expand-sm">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -56,23 +128,33 @@
         LAs a key contributor, I spearheaded user research, crafted the information architecture, and infused captivating visual design elements. The main hurdle we faced was the disorganized navigation system, hindering user experience. Our ingenious solution involved a complete navigation overhaul, aligning the site with neighboring government websites while preserving its essential information sections. Prepare to be impressed by the sleek, user-friendly interface that now empowers residents to effortlessly access vital resources and information. Some deliverables that were delivered were Low- fidelity mock ups and high interactive mock ups  
     </p>
     <div class="white-box mx-auto">
-      <img src="image-placeholder.png" alt="Research Image" class="img-fluid">
+      <img src="./images/Frame80.png" alt="Research Image" class="img-fluid">
     </div>
     <div class="purple-circles">
       <div class="purple-circle">1</div>
-      <div class="purple-circle">2</div>
-      <div class="purple-circle">3</div>
-      <div class="purple-circle">4</div>
-      <div class="purple-circle">5</div>
+      <div class="dark-purple-circle">2</div>
+      <div class="dark-purple-circle">3</div>
+      <div class="dark-purple-circle">4</div>
+      <div class="dark-purple-circle">5</div>
     </div>
     <h2 class="section-title">Part 1: User Research</h2>
     <p>
       USER INSIGHT + PROBLEM STATEMENT + HOW MIGHT WE
     </p>
+    <p>USER INSIGHT + PROBLEM STATMENT + HOW MIGHT WETo kickstart the redesign of the Village of Lily Lake's website, our first crucial step was to gain valuable user insights. Introducing our proto persona, Lisa Bloomingdale, a resident eager to immerse herself in the community. Through Lisa's lens, we observed that the website primarily catered to current residents seeking local updates. However, we identified a significant challenge: the site's navigation was convoluted, lacking clear categories and causing frustration when locating specific information scattered across unrelated pages. In addition to defining the problem, we took proactive steps such as annotating the navigation of 6 pages, conducting a heuristic evaluation, and performing a usability test on the site to gather comprehensive feedback. Thus, our central question emerged: How might we redesign the navigation bar to better serve the welcoming community of Lily Lake?</p>
+
     <div class="white-box mx-auto">
-      <img src="image-placeholder.png" alt="User Research Image" class="img-fluid">
+      <img src="./images/Proto_Persona_GOV (1) 1.png" alt="User Research Image" class="img-fluid">
     </div>
-    <p>Usability Website Navigation Testing... highlighting areas for improvement in the redesign process.</p>
+    <p>
+      Usability Website Navigation Testing For our website navigation usability testing, we interviewed four individuals, two using desktops and two using mobile devices, to gather feedback on the original website. The consensus was that the color scheme was straining on the eyes, particularly for desktop users, and that the navigation proved challenging to use. Additionally, participants noted the absence of clear indicators to determine their location within the site, highlighting areas for improvement in the redesign process.</p>
+	<div class="purple-circles">
+      <div class="purple-circle">1</div>
+      <div class="purple-circle">2</div>
+      <div class="dark-purple-circle">3</div>
+      <div class="dark-purple-circle">4</div>
+      <div class="dark-purple-circle">5</div>
+    </div>
   </div>
 
   <div class="container content-section" id="architecture">
@@ -80,42 +162,60 @@
     <p>
       USER FLOW + CARD SORTING + PRIORITIZATION MATRIX
     </p>
+    <p>USER FLOW + CARD SORTING + PRIORTIZATION MATRIXPart 2: Information Architecture
+      Information architecture played a pivotal role in our redesign process. To establish a solid foundation, we began with a prioritization matrix to discern the essential elements for our design. Subsequently, we crafted a comprehensive user flow chart encompassing all website sections. From there, we transformed the user flow into a site map, which served as the basis for our card sorting exercises. Through multiple iterations of sorting, we refined and optimized the site's structure iteratively. This meticulous approach ensured that the final information architecture was intuitive and user-friendly.
+      </p>
     <div class="white-box mx-auto">
-      <img src="image-placeholder.png" alt="Information Architecture Image" class="img-fluid">
+      <img src="./images/Card Sorting 1.png" alt="Information Architecture Image" class="img-fluid">
     </div>
+    <div class="white-box mx-auto">
+      <img src="./images/Sitemap 1.png" alt="Information Architecture Image" class="img-fluid">
+    </div>
+    <p> Above is the card sorting and the site map that was made for this project</p>
     <div class="purple-circles">
       <div class="purple-circle">1</div>
       <div class="purple-circle">2</div>
       <div class="purple-circle">3</div>
-      <div class="purple-circle">4</div>
-      <div class="purple-circle">5</div>
+      <div class="dark-purple-circle">4</div>
+      <div class="dark-purple-circle">5</div>
     </div>
   </div>
 
   <div class="container content-section" id="iteration">
     <h2 class="section-title">Part 3: Ideation and Brainstorming</h2>
+    <p>SKETCHES, LOW-FI, STORYBOARD</p>
     <p>
-      DESCRIPTION OF THE PROCESS AND HOW IDEAS WERE GENERATED
+      In the ideation and brainstorming phase of our UX project, we generated a wide range of creative solutions to address the identified challenges. We began by sketching low-fidelity wireframes, allowing us to quickly explore different layout options and user flows. This iterative process enabled us to gather early feedback and make necessary adjustments before moving to high-fidelity prototypes.
+Throughout this phase, collaboration and open discussion were key. By leveraging diverse perspectives within our team, we were able to refine our ideas and develop a cohesive design strategy that would effectively enhance the user experience for the Village of Lily Lake's website
+
     </p>
     <div class="white-box mx-auto">
-      <img src="image-placeholder.png" alt="Ideation Image" class="img-fluid">
+      <img src="./images/New Navigation 1.png" alt="Ideation Image" class="img-fluid">
     </div>
     <div class="purple-circles">
       <div class="purple-circle">1</div>
       <div class="purple-circle">2</div>
       <div class="purple-circle">3</div>
       <div class="purple-circle">4</div>
-      <div class="purple-circle">5</div>
+      <div class="dark-purple-circle">5</div>
     </div>
   </div>
 
   <div class="container content-section" id="prototype">
     <h2 class="section-title">Part 4: Prototyping</h2>
-    <p>
-      DESCRIPTION OF THE PROTOTYPING PHASE AND RESULTS
+    <p> USER FLOW + CARD SORTING + PRIORTIZATION MATRIX
     </p>
+    <p> In the UI prototyping phase, we refined the website's visual design to enhance both aesthetics and usability. We updated the color scheme to incorporate the blue from the website's logo, complementing the existing wheat and white colors. Our goal was to create a comfortable and cozy feel while maintaining a neat, organized, and presentable look befitting a government website.
+      We also improved the navigation bar by adding feedback indicators, so users can easily tell where they are on the site. For the mobile version, we implemented a hamburger overlay menu to streamline navigation, while the desktop version featured a top bar navigation system with dropdown menus for easy access.
+      These high-fidelity prototypes were essential for usability testing, allowing us to gather feedback and make further refinements. Through iterative design, we ensured that the final product was not only visually appealing but also highly functional and user-friendly.</p>
+      <div class="white-box mx-auto">
+      <img src="./images/Home Iteration1 1.png" alt="Prototyping Image" class="img-fluid">
+    </div>
     <div class="white-box mx-auto">
-      <img src="image-placeholder.png" alt="Prototyping Image" class="img-fluid">
+      <img src="./images/home Iteration2 1.png" alt="Prototyping Image" class="img-fluid">
+    </div>
+    <div class="white-box mx-auto">
+      <img src="./images/HOME - Village of Lily Lake 1.png" alt="Prototyping Image" class="img-fluid">
     </div>
     <div class="purple-circles">
       <div class="purple-circle">1</div>
@@ -125,15 +225,16 @@
       <div class="purple-circle">5</div>
     </div>
   </div>
+  <div class="container content-section" id="iteration">
+    <h2 class="section-title">Part 5: Conclusion </h2>
+    <p>FINAL THOUGHTS AND REFLECTIONS</p>
+    <p>
+      To kickstart the redesign of the Village of Lily Lake's website, our first crucial step was to gain valuable user insights. Introducing our proto persona, Lisa Bloomingdale, a resident eager to immerse herself in the community. Through Lisa's lens, we observed that the website primarily catered to current residents seeking local updates. However, we identified a significant challenge: the site's navigation was convoluted, lacking clear categories and causing frustration when locating specific information scattered across unrelated pages. In addition to defining the problem, we took proactive steps such as annotating the navigation of 6 pages, conducting a heuristic evaluation, and performing a usability test on the site to gather comprehensive feedback. Thus, our central question emerged: How might we redesign the navigation bar to better serve the welcoming community of Lily Lake?
+    </p>
 
   <!-- Footer -->
+ <footer>
   <div class="footer-content">
-    <ul>
-        <li>Home</li>
-        <li>UX</li>
-        <li>Data Analytics</li>
-        <li>Fun</li>
-    </ul>
     <div class="footer-details">
         <div class="footer-logo">
             <img src="./images/logo.png" alt="Logo" style="height: 100%;">
@@ -146,9 +247,8 @@
         </div>
     </div>
     <p>&copy; 2024, Brian Klimek. All Rights Reserved</p>
-</div>
+  </div>
 </footer>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
