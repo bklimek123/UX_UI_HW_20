@@ -52,7 +52,14 @@ body {
     margin: 1rem 0;
     text-align: left;
   }
-  
+  .purple-box {
+    background-color: #150230;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    text-align: left;
+  }
   .purple-circles {
     margin-top: 2rem;
     display: flex;
